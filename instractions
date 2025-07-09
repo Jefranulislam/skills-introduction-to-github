@@ -1,0 +1,77 @@
+# 📘 How to Use GitHub
+
+A quick-start guide to using GitHub for version control and collaboration.
+
+
+
+## ✅ 1. Create a GitHub Account
+- Go to: [https://github.com](https://github.com)
+- Sign up with your email
+- Set a username and password
+- Verify your email
+
+
+
+## ✅ 2. Install Git
+- Download from: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+- Install with default settings
+- Open Git Bash or terminal
+
+---
+
+## ✅ 3. Set Up Git (One-Time Only)
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+
+✅ 4. Create a Repository
+Go to your GitHub profile
+
+Click "New" in the Repositories tab
+
+Fill in:
+
+Repository name (e.g., my-project)
+
+Visibility: Public or Private
+
+Optionally: Initialize with a README
+
+Click "Create repository"
+
+✅ 5. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/my-project.git
+cd my-project
+
+
+✅ 6. Add/Edit Your Project Files
+Use a code editor (e.g., VS Code)
+
+Add or change files inside the folder
+
+✅ 7. Track & Push Changes
+
+git add .                    # Track all changes
+git commit -m "your message" # Save changes with message
+git push origin main         # Push to GitHub
+✅ 8. Pull Latest Changes
+
+git pull origin main
+
+✅ 9. Create a New Branch (Optional)
+
+git checkout -b feature-branch
+# make changes
+git push origin feature-branch
+
+
+✅ 10. Open a Pull Request
+Go to your repository on GitHub
+
+Click "Compare & pull request"
+
+Review, comment, and merge
